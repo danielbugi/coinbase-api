@@ -18,7 +18,7 @@ export const AppProvider = ({ children }) => {
   const urlOptions = {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': 'e9a03bb05emsh7c2c7dfd0681c33p1fc156jsnd6c7feabcadb',
+      'X-RapidAPI-Key': import.meta.env.VITE_API_KEY,
       'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com',
     },
   };
